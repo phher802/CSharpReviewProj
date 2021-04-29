@@ -12,7 +12,7 @@ namespace Vidly.Controllers
         public IActionResult Random()
         {
             Movie movie = new Movie() { Name = "Shrek!", Genre = "Animation", Director = "Andrew Adamson" };
-            return View();
+            return View(movie);
         }
     }
 }
